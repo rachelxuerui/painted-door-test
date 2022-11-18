@@ -1,0 +1,81 @@
+/*this is for the painted door test popup*/
+.bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    background-color: rgba(72, 111, 155, 1);
+    position: absolute;
+    height: 14.188rem;
+    width: 100%;
+    bottom: 0rem;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: auto;
+}
+.header {
+    text-align: left;
+    font-family: 'Bitter';
+    font-weight: medium;
+    font-size: 1.25rem;
+    color: white;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    /*margin: 0 auto;*/
+    width: auto;
+    
+}
+.body {
+    margin-top: 1.75rem;
+    font-family: 'Bitter';
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    /*margin: 0 auto;*/
+    width: auto;
+    padding-left: 1.875rem;
+    padding-right: 1.438rem;
+}
+.buttons {
+    margin-top: 1.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4.063rem;
+    padding: 0 1.7rem;
+}
+.decline {
+    font-family: 'Bitter';
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+
+    background-color: rgba(72, 111, 155, 1);
+    border-radius: 1.3125rem;
+    border-width: 0.188rem;
+    border-color: white;
+    border-style: solid;
+
+    width: 7.75rem;
+    height: 3.188rem;
+    /*margin-left: 1.875rem;*/
+}
+.accept {
+    font-family: 'Bitter';
+    font-size: 1rem;
+    color: rgba(72, 111, 155, 1);
+    text-align: center;
+
+    background-color: white;
+    border-radius: 1.3125rem;
+    border-color: white;
+    border-style: solid;
+    
+    width: 11.188rem;
+    height: 3.188rem;
+    /*margin-right: 1.875rem;*/
+}

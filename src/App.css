@@ -1,0 +1,94 @@
+/*this is for the painted door test popup*/
+.bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    background-color: rgba(72, 111, 155, 1);
+    position: absolute;
+    height: 14.188rem;
+    width: 100%;
+    bottom: 0rem;
+    border-radius: 0.75rem 0.75rem 0 0;
+    margin: 0;
+    padding: 0;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: auto;
+}
+.header {
+    text-align: left;
+    font-family: 'Bitter';
+    font-weight: medium;
+    font-size: 1.25rem;
+    color: white;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    width: auto;
+}
+.body {
+    margin-top: 1.75rem;
+    font-family: 'Bitter';
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    width: auto;
+    padding-left: 1.875rem;
+    padding-right: 1.438rem;
+}
+.buttons {
+    margin-top: 1.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1.7rem;
+}
+@media screen and (max-width: 357px) {
+    .buttons {
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .bg {
+        height: auto;
+    }
+    .text {
+        margin-top: 1rem;
+    }
+}
+.decline {
+    font-family: 'Bitter';
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+
+    background-color: rgba(72, 111, 155, 1);
+    border-radius: 1.3125rem;
+    border-width: 0.188rem;
+    border-color: white;
+    border-style: solid;
+
+    width: 7.75rem;
+    height: 3.188rem;
+}
+.accept {
+    font-family: 'Bitter';
+    font-size: 1rem;
+    color: rgba(72, 111, 155, 1);
+    text-align: center;
+
+    background-color: white;
+    border-radius: 1.3125rem;
+    border-color: white;
+    border-style: solid;
+    
+    width: 11.188rem;
+    height: 3.188rem;
+    
+    box-sizing: border-box;
+}
